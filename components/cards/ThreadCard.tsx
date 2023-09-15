@@ -60,7 +60,7 @@ const ThreadCard = ({id,
                                 className="w-fit">
                                     <h4 className="cursor-pointer text-base-semibold text-light-1">{author.name}</h4>
                             </Link>
-                            <p className="mt-2 text-small-regular text-light-2">
+                            <p className={`${isComment && 'mb-10'} mt-2 text-small-regular text-light-2`}>
                                 {content}
                             </p>
 
