@@ -1,3 +1,47 @@
+# PartyUp
+
+A Threads clone project built with TypeScript, Next.js, MongoDB, and Clerk for authentication.
+
+## Table of Contents
+
+- [PartyUp](#project-g)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+## About
+
+The PartyUp is a web application that replicates some of the core features of the popular social media platform Threads. It allows users to post threads, follow communities, and engage in discussions with other users.
+
+## Features
+
+- User authentication and authorization with Clerk
+- Posting Threads
+- Following communities
+- Real-time updates with WebSocket (optional feature)
+- User profiles with avatars and bio
+- Pagination and infinite scrolling
+
+## Getting Started
+
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Before you begin, make sure you have the following software installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [MongoDB](https://www.mongodb.com/)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
